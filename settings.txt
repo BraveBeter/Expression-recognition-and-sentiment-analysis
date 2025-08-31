@@ -1,0 +1,18 @@
+# rest reminder
+Notification_switch=OFF
+Notice_interval_time=1
+Pomodoro_Technique=OFF
+Learning_interval_time=1
+
+# Exhaustion alert
+alert_switch=OFF
+
+# Exit setting
+Exit=0
+
+# Database
+user=root
+password=20221536
+
+
+
