@@ -116,8 +116,8 @@ class FaceCNN(nn.Module):
 
 
 # opencv自带的一个面部识别分类器
-detection_model_path = 'model/haarcascade_frontalface_alt.xml'
-classification_model_path = 'model/model_cnn8.pkl'
+detection_model_path = '../model/haarcascade_frontalface_alt.xml'
+classification_model_path = '../model/model_cnn8.pkl'
 
 # 加载人脸检测模型
 face_detection = cv2.CascadeClassifier(detection_model_path)
@@ -332,7 +332,7 @@ class ChartDialog(QDialog):
 
 def read_Settings():
     # 设置文件路径
-    settings_file_path = 'settings.txt'
+    settings_file_path = '../asset/settings.txt'
     settings = {}
     with open(settings_file_path, 'r') as file:
         for line in file:
@@ -922,7 +922,7 @@ class MyWindow(QMainWindow):
         }
 
         # 假设设置文件的路径
-        file_path = 'settings.txt'
+        file_path = '../asset/settings.txt'
 
         with open(file_path, 'w') as file:
             for section, settings in new_config.items():

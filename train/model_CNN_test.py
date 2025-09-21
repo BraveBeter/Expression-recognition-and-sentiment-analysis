@@ -133,7 +133,7 @@ def tip(last_time):
 
 # Opencv自带的一个面部识别分类器
 detection_model_path = 'model/haarcascade_frontalface_default.xml'
-classification_model_path = 'model/model_cnn8.pkl'
+classification_model_path = '../model/model_cnn8.pkl'
 
 # 加载人脸检测模型
 face_detection = cv2.CascadeClassifier(detection_model_path)
