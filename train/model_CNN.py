@@ -251,7 +251,7 @@ def main():
     # 超参数可自行指定
     model = train(train_dataset, val_dataset, batch_size=128, epochs=86, learning_rate=0.02, wt_decay=0)
     # 保存模型参数
-    torch.save(model, 'model/model_cnn8.pkl')
+    torch.save(model, 'model/model_cnn.pkl')
 
 
 if __name__ == '__main__':
