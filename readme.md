@@ -73,6 +73,6 @@ Just run the backup_ui file directly in the ui folder
     She is the main participant in the data collection and collation of this project, and is the main participant in the algorithm implementation and database design.
 
 
-- The project member, Luan Xiaorui,  Lxr@qq.com
+- The project member, Luan Xiaorui,  2801611461@qq.com
    He is the main participant in the application development, testing and analysis of this project.
 
