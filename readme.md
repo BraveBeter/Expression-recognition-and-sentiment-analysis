@@ -57,7 +57,7 @@ Just run the backup_ui file directly in the ui folder
 
 
 ## About us
-- The person in charge of the project: Li yang, 2718014695@qq.com  
+- The person in charge of the project: Li Yang, 2718014695@qq.com  
  He is the first to propose and improve the project idea, and is also the main participant in the implementation of algorithms and data collation.    
 
 
